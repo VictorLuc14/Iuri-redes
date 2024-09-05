@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner1{
+    background-color: rgb(253, 184, 36);
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-width: 300px;
+    width: 100%;
+    height: 600px;
+}
+
+.conteiner2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-around;
+}
+.conteinerpai {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+  
+.conteiner3, .conteiner4 {
+    flex-grow: 1;
+    min-width: 300px;
+    width: 50%;
+}
+  
+.conteiner3{
+    margin-bottom: 30px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.botoes{
+    margin-right: 70px;
+}
+.botoes a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.botoes button{
+    padding: 7px;
+    border-radius: 13px;
+    border: none;
+}
+.cabecalho h1{
+    margin-left: 70px;
+}
+.botoes{
+    width: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.parte2{
+    width: 550px;
+    height: 300px;
+    margin-left: 70px;
+}
+.conteudo h1{
+    font-size: 97px;
+    margin-bottom: 30px;
+}
+.conteudo button{
+    padding: 7px;
+    border-radius: 17px;
+    width: 173px;
+    background-color: black;
+}
+.conteudo a{
+    text-decoration: none;
+}
+.conteudo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-bottom: 70px;
+}
+.conteudo a{
+    color: white;
+}
+.conteiner2 div{
+    margin-top: 30px;
+    width: 310px;
+    height: 90px;
+}
+.paragrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.paragrafo2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3px;
+}
+.paragrafo3{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.comentario{
+    margin: 50px;
+}
+.conteiner3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteiner4 button{
+    padding: 9px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(199, 199, 247);
+}
+.lateral a{
+    color: black;
+    text-decoration: none;
+}
+.conteiner4 p{
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lateral{
+    margin-top: 37px;
+    margin-left: 30px;
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.lateral .link{
+    color: green;
+}
+.texto-verde{
+    color: rgb(0, 95, 0);
+}
+.links{
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    color: gainsboro;
+}
+.links a{
+    color: rgb(177, 177, 177);
+}
+.link{
+    color: rgb(6, 143, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.img{
+    height: 130px;
+}
